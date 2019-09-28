@@ -10,6 +10,7 @@ Por otra parte al reemplazar el valor "buscado" por el software, este posee 2 as
 2. Ejercicio 2:
 
 la diferencia entre usar o no el unlist es relevante, ya que al usarlo te arroja un valor como numero operable, mientras que en el momento de no operar con unlist, lo considera como un argumento no numerico y no es operable, por lo que seria fundamental para operaciones en listas numericas, con o sin restricciones.
+
 3. Ejercicio 3:
 
 el valor en la posicion 5 se ve reemplazado por el valor asignado.
