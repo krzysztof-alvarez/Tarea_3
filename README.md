@@ -63,7 +63,7 @@ votacion <- function(total,votosSI,votosNO){ --> en este paso se plantea la crea
     print("No")
   }
 }
- **ojo, si no se corre la funcion, no se puede aplicar dicha funcion** 
+
 votacion(100,50,50) --> ejemplo de aplicacion de la funcion
 
 * Ejercicio 10:
@@ -87,3 +87,8 @@ for(i in 1 : length(listaDeNumeros)){
 }
 
 las ventajas de realizar esto, es que en estos casos, se realiza el for, en base a la longitud de la lista, si esta es modificada, ya sea aumentando o disminuyendo la cantidad de "rango" o longitud de la lista. La desventaja clara, es que no se realiza una operacion o tarea en una cantidad especifica, si es que asi se requiere, por lo que puede ser una tarea mas "larga" o con "mas datos" si es que no se aplica/escribe bien.
+
+Nota a la tarea/observaciones/etc.: 
+1.  **Si no se corre la funcion/lista/comando/variable, no se puede aplicar alguna actividad ligada/vinculada a esta**
+2.  **Consejo, para los parentesis de funciones tales como if o for "{}" se recomienda "cerrarlos" a la misma altura para tener un orden y saber cuando estan "completos" o "cerrados"
+3.  **Usar nombres "especificos" para las variables/funciones/listas, para saber que realizan, representan o contienen estas, para poder tener un mejor orden**
