@@ -103,3 +103,71 @@ votacion <- function(total,votosSI,votosNO){
   
 votacion(100,50,50)
 
+#Ejercicio 10: Funcion con numeros/operaciones matematicas 
+Suma<-function(a,b){
+  a+b
+}
+Suma(3,4)
+
+Resta<-function(a,b){
+  a-b
+}
+Resta(3,4)
+
+Multiplicacion<-function(a,b){
+  a*b
+}
+Multiplicacion(3,4)
+
+Division<-function(a,b){
+  a/b
+}
+Division(3,4)
+
+todo<-function(a,b){
+  ((a+b)*(b-a))/4-((b+a)*(a-b))/2
+}
+todo(50,10)
+
+#Se cumplen las operaciones numericas basicas, y el cumplimiento de estas reglas matematicas
+
+#Ejercicio 11: Area de Rectangulos y Circulos
+pi
+#el programa reconoce la palabra "pi" como el numero, necesario para saber el area del circulo
+#en las funciones, se sabe que el area de las figuras son base*altura y pi*r^2 respectivamente.
+#se plantea crear funciones con valores absolutos y normales, y en el caso especifico de los circulos, con el radio y el perimetro, siendo este ultimo, el doble del radio 
+
+dif.rect<-function(base1,altura1,base2,altura2){
+  (base1*altura1)-(base2*altura2)
+}
+dif.circ.radio<-function(radio1,radio2){
+  (pi*radio1^2)-(pi*radio2^2)
+}
+dif.circ.diam<-function(diametro1,diametro2){
+  (pi*(diametro1/2)^2)-(pi*(diametro2/2)^2)
+}
+dif.rect.abs<-function(base1,altura1,base2,altura2){
+  abs((base1*altura1)-(base2*altura2))
+}
+dif.circ.radio.abs<-function(radio1,radio2){
+  abs((pi*radio1^2)-(pi*radio2^2))
+}
+dif.circ.diam.abs<-function(diametro1,diametro2){
+  abs((pi*(diametro1/2)^2)-(pi*(diametro2/2)^2))
+}
+dif.rect(2,3,3,4)
+dif.rect.abs(2,3,3,4)
+dif.circ.diam(2,4)
+dif.circ.radio(1,2)
+#se comprueba que los valores, son "numericamente los mismos" y que el valor absoluto si aplica en ambas funciones de manera apropiada.
+
+#Ejercicio extra: for en base a la cantidad de lista de numeros
+
+for( i in listaDeNumeros){
+  print(i)
+}
+
+for(i in 1 : length(listaDeNumeros)){
+  print(listaDeNumeros[i])
+}
+
